@@ -1,4 +1,8 @@
 class EnvelopesController < ApplicationController
+  if Rails.env.production?
+    http_basic_authenticate_with name: ENV['BASIC_AUTH_NAME'], password: ENV['BASIC_AUTH_PASSWORD']
+  end
+
   def new
     @envelope = Envelope.new
   end
