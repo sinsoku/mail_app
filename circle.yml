@@ -7,3 +7,11 @@ deployment:
     branch: mailgun
     heroku:
       appname: g-mailgun
+  mandrill:
+    branch: mandrill
+    heroku:
+      appname: g-mandrill
+  postmark:
+    branch: postmark
+    heroku:
+      appname: g-postmark
