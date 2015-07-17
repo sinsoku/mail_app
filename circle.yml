@@ -1,0 +1,5 @@
+deployment:
+  sendgrid:
+    branch: master
+    heroku:
+      appname: g-sendgrid
