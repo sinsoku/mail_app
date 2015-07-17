@@ -3,3 +3,7 @@ deployment:
     branch: master
     heroku:
       appname: g-sendgrid
+  mailgun:
+    branch: mailgun
+    heroku:
+      appname: g-mailgun
